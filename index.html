@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/ec17599692.js" crossorigin="anonymous"></script>
+    <title>Nicolas Doglioli // Front end developer</title>
+</head>
+<body class="css-selector">
+        <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg navbar-light pl-3  fixed-top" id="nav">
+                <a class="navbar-brand text-white href="#">Nico Doglioli</a>
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item acollapse.navbar-collaps">
+                      <a class="nav-link text-white collapse.navbar-collaps" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">About me</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link text-white" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Projects(soon)</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    <!--   HEADER    -->
+    <header class="container-fluid header pt-5 >
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-item-center mt-3">
+                <img src="/img/banner.png" class="img-fluid img-responsive" width= "350px" height=""  alt="" id="img-banner">
+            </div>
+            <div class="col-12">
+                
+                <h1 class="text-white text-center">Front-End Developer</h1>
+                <h2 class="text-white text-center" id="based">Based in London, United Kingdom</h2>
+            </div>
+
+        </div>
+        
+    </header>
+
+    <!-- ABOUT ME -->
+    <div class="container-fluid box-bg">
+        <h1 class="text-center text-white pt-2"> You Should Be Failing. “If things are not failing, </h1>
+        <h1 class="text-center text-white " id="h-phrase"> you are not innovating enough.”</h1>
+        <h2 class="text-center " id="autor"> Elon Musk</h2>
+
+        <div class="container box-bg text-white pt-5"  >
+            <h2 class="text-center mt-5">About me</h2>
+            <div class="row mt-5">
+                <div class="col-xl-8  col-lg-6 col-xs-12   uno">
+                    <img src="./img/foto descript.jpg" width="400px" height="auto" alt="" id="img-skill">
+                </div>
+                <div class="col-xl-4  col-lg-6 col-xs-12  dos">
+                    <p>My name is Nicolas Doglioli, I'm from Argentina and Italian aswell. I live in UK.</p>
+                    <p>I'm PE teacher, but i have alwys been interested in IT, so i've started to learn by myself.</p>
+                    <p>I consider myself as person who can adapt to any circunstances , always ready for new challenges and able to work in different areas
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+ <!-- SKILLS -->
+ <div class="container-fluid box-bg">
+    <div class=" container-fluid row justify-content-center box-bg   text-center pt-5">
+     
+        <h2 class="text-center text-white">Skills</h2>
+        <div class="col-xl-3  col-lg-6 col-xs-12 card" >
+            <i class="fab fa-html5 icon" id="html-logo"></i>
+            <h2>HTML5</h2>
+        </div>
+        <div class="col-xl-3  col-lg-6 col-xs-12 card">
+            <i class="fab fa-css3-alt icon" id="css-logo"></i>
+            <h2>Css3</h2>
+        </div>
+        <div class="col-xl-3  col-lg-6 col-xs-12 justify-content-cente card">
+            <i class="fab fa-js-square icon" id="js-logo"></i>
+            <h2>JavaScript</h2> 
+        </div>
+        <div class="col-xl-3  col-lg-6 col-xs-12 card">
+            <i class="fab fa-bootstrap icon " id="bp-logo"></i>
+            <h2>Bootstrap</h2>
+        </div>
+        <div class="col-xl-3  col-lg-6 col-xs-12 card">
+            <i class="fab fa-react icon" id="rt-logo"></i></i>
+            <h2>React</h2>
+        </div>
+        <div class="col-xl-3  col-lg-6 col-xs-12 card">
+            <i class="fab fa-git-alt icon" id="git-logo"></i>
+            <h2>Git</h2>
+        </div>
+ </div  >
+ </div>
+    <!--              FORM         -->
+<div class="container-fluid box-bg pt-5 pb-2 text-white">
+    <section class="container box-bg">
+        <div class="row  justify-content-center">
+            <h2 class="text-center"> Contacto</h2>
+            <form method="post" action="#">
+                    <div class="form-group ">
+                        <label for="name">Name: <span class="text-danger">*</span></label>
+                        <input type="text" name="Name"id="name" placeholder="Name" class="form-control required">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email:<span class="text-danger">*</span></label>
+                        <input id="mail" type="email" name="" placeholder="example@example.com" id="" class="form-control" required> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="comment">Comment:<span class="text-danger">*</span></label>
+                        <input id="comment" type="text" name="" placeholder="comment" id="" class="form-control">
+                    </div>
+                <button class="btn btn-outline-success btn-block mt-1"> Send</button>
+                
+             </form>
+            </div>
+     </section>
+    </div>
+<div class="spliter"></div>
+    <!--               FOOTER      -->
+    <footer class="container-fluid pt-2 pb-2 footer ">
+        <div class="row d-flex justify-content-between text-center align-items-center">
+            <div class="col-4 text-left ">
+                <p>© 2022 Nicolas Doglioli</p>
+                <p>London</p>
+            </div>
+            <div class="col-2 "> 
+                <p>Fron end developer</p>
+            </div>
+            <div class="col-6 text-center align-item-center " >
+                <a class="link" href="http://" target="_blank" rel="noopener noreferrer">Github</a>
+                <a class="link" href="mailto:dogliolinico@gmail.com">Emaill</a>
+                <a class="link" href="http://www.linkedin.com/in/nicodoglioli" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                <a class="link" href="http://www.instagram.com/nicodoglioli" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
